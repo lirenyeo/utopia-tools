@@ -1,0 +1,26 @@
+.body-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 42px);
+  width: 100%;
+}
+
+.time-calc-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 152px;
+  width: 50%;
+  margin-bottom: 10vh;
+}
+
+@media (max-width: 900px) {
+  .time-calc-container { width: 80%; }
+}
+
+.time-calc-container .time-calc-dropdown {
+  margin-top: 1.5em;
+  width: 80%;
+}
